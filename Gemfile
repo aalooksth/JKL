@@ -18,7 +18,7 @@ source "https://rubygems.org"
 #   gem "cucumber", "~> 4.1"
 #   gem "httpclient"
 #   gem "jekyll_test_plugin"
-#   gem "jekyll_test_plugin_malicious"
+#   gem "jekyll_test_plugin_maflicious"
 #   gem "memory_profiler"
 #   gem "nokogiri", "~> 1.7"
 #   gem "rspec"
@@ -58,13 +58,13 @@ source "https://rubygems.org"
 
 # #
 
-# group :jekyll_optional_dependencies do
+group :jekyll_optional_dependencies do
 #   gem "jekyll-coffeescript"
 #   gem "jekyll-docs", :path => "../docs" if Dir.exist?("../docs") && ENV["JEKYLL_VERSION"]
-#   gem "jekyll-feed", "~> 0.9"
+  gem "jekyll-feed", "~> 0.9"
 #   gem "jekyll-gist"
 #   gem "jekyll-paginate"
-#   gem "jekyll-redirect-from"
+  gem "jekyll-redirect-from"
 #   gem "kramdown-syntax-coderay"
 #   gem "mime-types", "~> 3.0"
 #   gem "rdoc", "~> 6.0"
@@ -74,7 +74,7 @@ source "https://rubygems.org"
 #     gem "classifier-reborn", "~> 2.2"
 #     gem "liquid-c", "~> 4.0"
 #     gem "yajl-ruby", "~> 1.4"
-#   end
+  end
 
 #   # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 #   # and associated library
