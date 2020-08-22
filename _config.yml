@@ -41,7 +41,7 @@ defaults:
   values:
     image: "/img/jekyll-og.png"
 future: true
-plugins:
+# plugins:
 # - jekyll-avatar
 # - jekyll-feed
 # - jekyll-mentions
