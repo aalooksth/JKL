@@ -41,14 +41,14 @@ defaults:
   values:
     image: "/img/jekyll-og.png"
 future: true
-# plugins:
-# - jekyll-avatar
-# - jekyll-feed
-# - jekyll-mentions
-# - jekyll-redirect-from
-# - jekyll-seo-tag
-# - jekyll-sitemap
-# - jemoji
+plugins:
+- jekyll-avatar
+- jekyll-feed
+- jekyll-mentions
+- jekyll-redirect-from
+- jekyll-seo-tag
+- jekyll-sitemap
+- jemoji
 feed:
   categories:
   - release
