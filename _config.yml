@@ -42,7 +42,7 @@ defaults:
     image: "/img/jekyll-og.png"
 future: true
 plugins:
-- jekyll-avatar
+# - jekyll-avatar
 - jekyll-feed
 - jekyll-mentions
 - jekyll-redirect-from
